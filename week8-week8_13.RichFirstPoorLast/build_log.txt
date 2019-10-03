@@ -1,0 +1,83 @@
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-junit:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /Users/steventidd/NetBeansProjects/mooc-2013-OOProgrammingWithJava-PART2/week8-week8_13.RichFirstPoorLast/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /Users/steventidd/NetBeansProjects/mooc-2013-OOProgrammingWithJava-PART2/week8-week8_13.RichFirstPoorLast/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+    [javac] Compiling 2 source files to /Users/steventidd/NetBeansProjects/mooc-2013-OOProgrammingWithJava-PART2/week8-week8_13.RichFirstPoorLast/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /Users/steventidd/NetBeansProjects/mooc-2013-OOProgrammingWithJava-PART2/week8-week8_13.RichFirstPoorLast/src/Main.java:23: error: no suitable method found for sort(List<Person>)
+    [javac]         Collections.sort(people);
+    [javac]                    ^
+    [javac]     method Collections.<T#1>sort(List<T#1>) is not applicable
+    [javac]       (inferred type does not conform to upper bound(s)
+    [javac]         inferred: Person
+    [javac]         upper bound(s): Comparable<? super Person>)
+    [javac]     method Collections.<T#2>sort(List<T#2>,Comparator<? super T#2>) is not applicable
+    [javac]       (cannot infer type-variable(s) T#2
+    [javac]         (actual and formal argument lists differ in length))
+    [javac]   where T#1,T#2 are type-variables:
+    [javac]     T#1 extends Comparable<? super T#1> declared in method <T#1>sort(List<T#1>)
+    [javac]     T#2 extends Object declared in method <T#2>sort(List<T#2>,Comparator<? super T#2>)
+    [javac] 1 error
+    [javac] 1 warning
