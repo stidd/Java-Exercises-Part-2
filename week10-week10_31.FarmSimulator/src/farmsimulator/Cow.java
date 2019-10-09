@@ -51,7 +51,6 @@ public class Cow implements Milkable, Alive {
         }else{
             this.milkInUdders += simulate;
         }
-        
     }
     
     @Override
@@ -68,10 +67,6 @@ public class Cow implements Milkable, Alive {
         return this.name + " " + Math.ceil(this.milkInUdders) + "/" + Math.ceil(this.udderCapacity); 
     }
     
-    
-    
-    
-    
-    
+
     
 }

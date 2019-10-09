@@ -20,7 +20,7 @@ public class MilkingRobot {
         this.tank = tank;
     }
     
-    public void milk(Milkable milkable){
+    public void milk(Milkable milkable){ 
         try{
             this.tank.addToTank(milkable.milk());
         }catch(Exception e){
